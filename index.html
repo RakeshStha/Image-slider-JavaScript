@@ -6,10 +6,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Image slider</title>
     <link rel="stylesheet" href="css/styles.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css" rel="stylesheet">
 </head>
 <body>
+    <h1>Image Slider with JavaScript</h1>
     <div id ="slides" class="container">
-        <button class="button previous" id="previous"> < </button>
+        <button class="button previous" id="previous">
+            <i class="fa fa-arrow-left" aria-hidden="true"></i>
+        </button>
         <div  class="slider">
             <img src="img/5.jpg" alt="slider-five" id="last">
             <img src="img/1.jpg" alt="slider-one">
@@ -20,7 +24,9 @@
             <img src="img/1.jpg" alt="s" id="first" >
 
         </div>
-        <button class="button next" id="nextBtn">></button>
+        <button class="button next" id="nextBtn">
+            <i class="fa fa-arrow-right" aria-hidden="true"></i>
+        </button>
     </div>
 
 

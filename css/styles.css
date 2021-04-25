@@ -6,6 +6,10 @@
 html {
     font-size: 10px;
 }
+h1{
+    margin: 50px;
+    text-align: center;
+}
 
 .container {
     align-items: center;
@@ -25,12 +29,12 @@ html {
 img {
     border-radius: 5px;
     width: 650px;
-    height: 500px;
+    height: 400px;
 }
 
 .button {
-    background: teal;
-    border: 0;
+    background: black;
+    border: 2px solid teal;
     border-radius:  50%;
     color: white;
     cursor: pointer;
